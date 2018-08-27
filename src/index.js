@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import fnsParse from 'date-fns/parse';
+import fnsFormat from 'date-fns/format';
 
 import getValue from './getValue';
 
@@ -46,6 +48,10 @@ class Time extends React.PureComponent {
     component: 'span',
     filter: d => d,
   }
+
+  static parse = (...args) => fnsParse(...args)
+
+  static format = (...args) => fnsFormat(...args)
 
   render() {
     const {

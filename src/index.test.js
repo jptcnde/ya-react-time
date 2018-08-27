@@ -32,4 +32,15 @@ describe('Time', () => {
     expect(wrapper.text()).toBe(expected);
     expect(wrapper).toMatchSnapshot();
   });
+
+  it('should format with Time "format" helper', () => {
+    const expected = '1995/12/17';
+
+    expect(Time.format(date, 'YYYY/MM/DD')).toBe(expected);
+  });
+
+  it('should format with Time "parse" helper', () => {
+    const expected = 'Invalid Date';
+    expect(Time.parse(date)).not.toBe(expected);
+  });
 });
