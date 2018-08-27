@@ -12,6 +12,10 @@
     "react-component",
     "time"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jptcnde/ya-react-time.git"
+  },
   "dependencies": {
     "date-fns": "^1.29.0",
     "enzyme": "^3.5.0",
