@@ -56,6 +56,8 @@ class Time extends React.PureComponent {
   render() {
     const {
       component: Component,
+      format, // omit eslint-disable-line
+      filter, // omit eslint-disable-line
       ...props
     } = this.props;
 
@@ -63,7 +65,7 @@ class Time extends React.PureComponent {
       <Component
         {...props}
       >
-        {getValue(props)}
+        {getValue(this.props)}
       </Component>
     );
   }

@@ -24,8 +24,6 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "11:39:09 am",
-      "filter": [Function],
-      "format": "HH:mm:ss A",
       "value": "",
     },
     "ref": null,
@@ -39,8 +37,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "11:39:09 am",
-        "filter": [Function],
-        "format": "HH:mm:ss A",
         "value": "",
       },
       "ref": null,
@@ -94,8 +90,6 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "1995/12/17",
-      "filter": [Function],
-      "format": "YYYY/MM/DD",
       "value": "",
     },
     "ref": null,
@@ -109,8 +103,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "1995/12/17",
-        "filter": [Function],
-        "format": "YYYY/MM/DD",
         "value": "",
       },
       "ref": null,
@@ -164,8 +156,6 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "1995-12-17T11:39:09",
-      "filter": [Function],
-      "format": "YYYY-MM-DDTHH:mm:ss",
       "value": "",
     },
     "ref": null,
@@ -179,8 +169,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "1995-12-17T11:39:09",
-        "filter": [Function],
-        "format": "YYYY-MM-DDTHH:mm:ss",
         "value": "",
       },
       "ref": null,
