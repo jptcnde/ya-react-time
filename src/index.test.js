@@ -39,7 +39,7 @@ describe('Time', () => {
     expect(Time.format(date, 'YYYY/MM/DD')).toBe(expected);
   });
 
-  it('should format with Time "parse" helper', () => {
+  it('should parse with Time "parse" helper', () => {
     const expected = 'Invalid Date';
     expect(Time.parse(date)).not.toBe(expected);
   });
