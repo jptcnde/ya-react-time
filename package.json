@@ -1,8 +1,8 @@
 {
   "name": "ya-react-time",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Yet another react-time component",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "author": "jptcnde",
   "license": "MIT",
   "keywords": [
